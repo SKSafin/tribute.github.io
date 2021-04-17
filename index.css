@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    font-family: 'Lobster', sans-serif;
+    font-size: 50px;
+}
+
+img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+main {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
