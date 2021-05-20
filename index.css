@@ -1,18 +1,91 @@
-h1 {
-    text-align: center;
-    font-family: 'Lobster', sans-serif;
-    font-size: 50px;
-}
-
-img {
-    width: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 5%;
-}
-
 main {
-    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
+}
+
+#title {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: -10px;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+#image:hover {
+    transform: scale(1.1);
+}
+
+#img-caption {
+    text-align: center;
+    font-size: 12px;
+}
+
+#tribute-info {
+    font-size: 30px;
+}
+
+#center {
+    text-align: center;
+}
+
+
+/*Extra small screen*/
+
+@media only screen and (max-width: 600px) {
+    #img-caption {
+        font-size: 12px;
+    }
+}
+
+
+/*Small screen*/
+
+@media only screen and (min-width: 600px) {
+    #img-caption {
+        font-size: 12px;
+    }
+}
+
+
+/*Medium screen*/
+
+@media only screen and (min-width: 768px) {
+    #img-caption {
+        font-size: 20px;
+    }
+}
+
+
+/*Large screen*/
+
+@media only screen and (min-width: 992px) {
+    #img-caption {
+        font-size: 20px;
+    }
+}
+
+
+/*Very large screen*/
+
+@media only screen and (min-width: 2000px) {
+    #title {
+        font-size: 100px;
+    }
+    #tribute-info {
+        font-size: 55px;
+    }
+    #img-caption {
+        font-size: 40px;
+    }
+    #image {
+        width: 1500px;
+    }
+    #center {
+        font-size: 40px;
+    }
 }
